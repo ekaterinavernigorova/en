@@ -945,11 +945,11 @@ footer {
 
   ul#mobile-hamburger li a {
     text-align: center;
-    color: white;
+    opacity: 0;
     /* transition comes without a delay when the menu shrinks */
-    -webkit-transition: color 100ms ease-out ;
-    -o-transition: color 100ms ease-out ;
-    transition: color 100ms ease-out ;
+    -webkit-transition: opacity 150ms ease-in-out ;
+    -o-transition: opacity 150ms ease-in-out ;
+    transition: opacity 150ms ease-in-out ;
   }
 
   .menu-links li + li {
@@ -998,11 +998,11 @@ footer {
 
   /* links gradually appear after the menu slides down */
   #menu-toggle:checked ~ ul#mobile-hamburger a {
-    color: black;
+    opacity: 1;
     /* transition comes with a delay when the menu is checked */
-    -webkit-transition: color 250ms ease-in-out 250ms;
-    -o-transition: color 250ms ease-in-out 250ms;
-    transition: color 250ms ease-in-out 250ms;
+    -webkit-transition: opacity 250ms ease-in-out 250ms;
+    -o-transition: opacity 250ms ease-in-out 250ms;
+    transition: opacity 250ms ease-in-out 250ms;
   }
 
   /* article */
