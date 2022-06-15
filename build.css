@@ -249,7 +249,7 @@ a.project_card {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  footer {
+  footer.home_page {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -751,6 +751,14 @@ footer {
   text-decoration: none;
 }
 
+@media (min-width: 1920px) {
+
+  footer.case_studies {
+    position: static;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1280px) {
   #absolute-1 .text-wrapper-500px {
     left: 612px;
@@ -937,11 +945,11 @@ footer {
 
   ul#mobile-hamburger li a {
     text-align: center;
-    opacity: 0;
+    color: white;
     /* transition comes without a delay when the menu shrinks */
-    -webkit-transition: opacity 150ms ease-out ;
-    -o-transition: opacity 150ms ease-out ;
-    transition: opacity 150ms ease-out ;
+    -webkit-transition: color 150ms ease-out ;
+    -o-transition: color 150ms ease-out ;
+    transition: color 150ms ease-out ;
   }
 
   .menu-links li + li {
@@ -990,11 +998,11 @@ footer {
 
   /* links gradually appear after the menu slides down */
   #menu-toggle:checked ~ ul#mobile-hamburger a {
-    opacity: 1;
+    color: black;
     /* transition comes with a delay when the menu is checked */
-    -webkit-transition: opacity 250ms ease-in-out 250ms;
-    -o-transition: opacity 250ms ease-in-out 250ms;
-    transition: opacity 250ms ease-in-out 250ms;
+    -webkit-transition: color 250ms ease-in-out 250ms;
+    -o-transition: color 250ms ease-in-out 250ms;
+    transition: color 250ms ease-in-out 250ms;
   }
 
   /* article */
