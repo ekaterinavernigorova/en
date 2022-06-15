@@ -947,9 +947,9 @@ footer {
     text-align: center;
     color: white;
     /* transition comes without a delay when the menu shrinks */
-    -webkit-transition: color 150ms ease-out ;
-    -o-transition: color 150ms ease-out ;
-    transition: color 150ms ease-out ;
+    -webkit-transition: color 100ms ease-out ;
+    -o-transition: color 100ms ease-out ;
+    transition: color 100ms ease-out ;
   }
 
   .menu-links li + li {
