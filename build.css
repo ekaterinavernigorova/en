@@ -939,9 +939,9 @@ footer {
     text-align: center;
     opacity: 0;
     /* transition comes without a delay when the menu shrinks */
-    -webkit-transition: opacity 150ms ease-in-out ;
-    -o-transition: opacity 150ms ease-in-out ;
-    transition: opacity 150ms ease-in-out ;
+    -webkit-transition: opacity 150ms ease-out ;
+    -o-transition: opacity 150ms ease-out ;
+    transition: opacity 150ms ease-out ;
   }
 
   .menu-links li + li {
