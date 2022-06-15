@@ -784,9 +784,13 @@ footer {
 /* case study tablet–desktop */
 
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
-  article img,
+  article img {
+    width: 700px;
+  }
+
   iframe {
     width: 700px;
+    height: 393.75px;
   }
 
   #absolute-1,
