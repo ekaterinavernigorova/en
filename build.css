@@ -330,6 +330,77 @@ nav ul ul li {
 
 /* case study unique styles */
 
+/* sylvan website */
+.sylvan {
+  background: rgb(224,227,238);
+  background: -webkit-linear-gradient(317deg, rgba(224,227,238,1) 0%, rgba(229,232,241,1) 45%, rgba(216,220,229,1) 100%);
+  background: -o-linear-gradient(317deg, rgba(224,227,238,1) 0%, rgba(229,232,241,1) 45%, rgba(216,220,229,1) 100%);
+  background: linear-gradient(47deg, rgba(224,227,238,1) 0%, rgba(229,232,241,1) 45%, rgba(216,220,229,1) 100%);
+}
+
+.package-wrapper {
+  width: 1020px;
+  padding: 56px 0;
+  margin: 0 auto;
+}
+
+.package-2r {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 0;
+}
+
+.package-1r {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 0;
+}
+
+.package-2r li,
+.package-1r li {
+  max-width: 340px;
+  max-height: 340px;
+}
+
+.package-2r img,
+.package-1r img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.cider1-1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.cider1-2 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.cider2-1 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.cider2-2 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.cider3-1 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.cider3-2 {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
+
 /* kind app */
 
 /* hero */
@@ -380,14 +451,20 @@ img#img-700px + p {
 
   .takeaway-wrapper img {
     width: 100px;
-    margin-right: 0;
+    margin: 0 auto 20px;
   }
 }
+
+
 
 /* book nook app */
 .book-nook {
   background: #0D0D0D;
 }
+
+
+
+
 
 /* case study desktop */
 
@@ -423,7 +500,7 @@ article {
 
 .hero-image-wrapper img {
   width: 1778px;
-  height: 414px;
+  /* height: 414px; */
   padding-top: 0;
 }
 
@@ -598,6 +675,10 @@ article blockquote::before {
   height: 60%;
   margin-left: -12px;
   background: black;
+}
+
+.no-paddings {
+  padding: 0;
 }
 
 article em {
@@ -1165,7 +1246,7 @@ footer {
 
     .hero-image-wrapper img {
       width: 874px;
-      height: 215px;
+      /* height: 215px; */
     }
 
     .text-wrapper-700px {
