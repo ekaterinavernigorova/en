@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Яндекс.Учебник</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="build.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.min.js" charset="utf-8"></script>
+    <script src="sidebar.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <menu>
+          <div class="flex-wrapper-menu">
+          <div class="left-menu">
+            <ul class="menu-links">
+              <li><a href="index.html">Екатерина Вернигорова</a></li>
+            </ul>
+          </div>
+
+            <div class="menu-logo" id="top"><a href="#"></a></div>
+
+          <div class="right-menu">
+            <input type="checkbox" id="menu-toggle">
+            <ul class="menu-links" id="mobile-hamburger">
+              <li><a href="index.html">Портфолио</a></li>
+              <li><a href="https://drive.google.com/file/d/1rS8QZR-4WJ_xSexREimgkVyXL4VpF3A2/view?usp=sharing" target="_blank">Resume</a></li>
+              <!-- language switcher -->
+              <li class="language-button"><a href="https://ekaterinavernigorova.github.io/en/book-nook.html">En</a></li>
+              <li class="language-button current"><a href="https://ekaterinavernigorova.github.io/ru/book-nook.html">Ru</a></li>
+            </ul>
+            <label for="menu-toggle" class="menu-toggle-label">
+              <span></span>
+            </label>
+          </div>
+
+        </div>
+      </menu>
+    </header>
+
+    <!-- Left sidebar -->
+    <nav id="dvid">
+      <ul>
+        <li><a href="#h2-overview">Overview</a></li>
+        <li><a href="#h2-user-research">UX исследование</a></li>
+        <li><a href="#h2-hypothesis-1">Гипотеза 1</a></li>
+        <li><a href="#h2-hypothesis-2">Гипотеза 2</a></li>
+        <li><a href="#h2-hypothesis-3">Гипотеза 3</a></li>
+        <li><a href="#h2-landing-page-prototype">Landing Page Prototype</a></li>
+      </ul>
+    </nav>
+
+    <article>
+        <!-- First screen image -->
+        <section id= "first-screen">
+          <div class="text-wrapper-700px hero-title">
+            <h1>Яндекс.Учебник</h1>
+            <p>Увеличение конверсии лендинга</p>
+          </div>
+          <div class="hero-image-wrapper-web yandex">
+            <img src="images/yandex-hero_img@2x.png" alt="Yandex Uchebnik hero image">
+          </div>
+        </section>
+
+        <!-- Overview -->
+        <section id="othdiv" class="content-wrapper">
+          <div class="text-wrapper-700px">
+            <h2 id="h2-overview">Overview</h2>
+            <p>Yandex.Uchebnik is a digital education platform which offers school teachers effective tools of teaching online as well as growing as a professional.
+            My task was to do an audit of one of their courses landing page to improve conversions and redesign it accordingly.  I also had to take into account the brand guidelines with its established use of typefaces and imagery. </p>
+            <div class="overview-details">
+
+              <div class="overview-col">
+                <h5>My role</h5>
+                <ul>
+                  <li>UX Research</li>
+                  <li>Landing Redesign</li>
+                </ul>
+              </div>
+
+              <div class="overview-col">
+                <h5>Timeline</h5>
+                <ul>
+                  <li>March 2022</li>
+                </ul>
+              </div>
+
+              <div class="overview-col tag">
+                <h5>Tags</h5>
+                <ul>
+                  <li>web design</li>
+                  <li>2022</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+
+        <!-- User Research -->
+        <section class="content-wrapper" >
+          <div class="text-wrapper-700px">
+            <h2 id="h2-user-research">UX Research</h2>
+            <p>In order to better inform my design decisions I conducted a competitive audit and interviewed several teachers, some of whom had difficulties using modern technologies.</p>
+          </div>
+            <div class="spacer-L_desktop"></div>
+            <div class="spacer-L_mobile"></div>
+        </section>
+
+        <!-- Hypothesis 1-->
+      <section class="content-wrapper" id="opaque-background-2">
+        <div class="text-wrapper-700px">
+          <h2 id="h2-hypothesis-1">Hypothesis 1</h2>
+          <p><em>The users find the CTA buttons on the first screen (1) misleading.
+          They think that they will start studying the course if they click on one of the buttons, but instead the buttons lead to a very long course description, which makes the mobile experience of this landing page especially not user friendly:</em></p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-1_img1@2x.png" alt="Yandex Uchebnik hypothesis 1 image 1">
+
+        <div class="text-wrapper-700px">
+          <p>I decided to replace the buttons with a more familiar to mobile users Tab Control (2) which made the landing page twice shorter:</p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-1_img2@2x.png" alt="Yandex Uchebnik hypothesis 1 image 2">
+
+        <div class="text-wrapper-700px">
+          <p>For users who are not familiar with tab control functionality, I added the button switching to a proper course (3) at the end of the description section.</p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-1_img3@2x.png" alt="Yandex Uchebnik hypothesis 1 image 3">
+
+      </section>
+
+      <!-- Hypothesis 2-->
+      <section class="content-wrapper" id="opaque-background-2">
+        <div class="text-wrapper-700px">
+          <h2 id="h2-hypothesis-2">Hypothesis 2</h2>
+          <p><em>Users doubt the practical value of this course as:</em></p>
+          <ol>
+            <li><em>It’s free;</em></li>
+            <li><em>The individual educational trajectory sounds good in theory, but is barely useful in Russian education reality.</em></li>
+          </ol>
+          <p>In order to attract more users I decided to make the first screen most informative. Thus, they can better understand what this course is about and its value from the start.</p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-2_img1@2x.png" alt="Yandex Uchebnik hypothesis 2 image 1">
+
+        <div class="text-wrapper-700px">
+          <p>I removed the short description after the main header as it doesn’t provide users with a clear understanding of the course material. ‘About’ section (1) expands with an accordion element.
+          The course program is introduced in the video format (2) now, which makes the overview more clear and visually appealing. User rating (3) and user reviews (4) show the real value of this course and how the education process changes with its practical implementation.
+          </p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-2_img2@2x.png" alt="Yandex Uchebnik hypothesis 2 image 2">
+
+        <div class="text-wrapper-700px">
+          <p>Right after the user reviews there is a section with a CTA ‘Start learning’ which I modified slightly only in mobile version (5):</p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-2_img3@2x.png" alt="Yandex Uchebnik hypothesis 2 image 3">
+
+        <div class="text-wrapper-700px">
+          <p>In current desktop version ‘Articles related to the course’ section is divided in 4 columns with very small gutters, which makes reading the article titles illegible. The 3 column layout solves this problem:</p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-2_img4@2x.png" alt="Yandex Uchebnik hypothesis 2 image 4">
+
+        <div class="text-wrapper-700px">
+          <p>I think that every landing should tell a story of company’s values and goals. That’s why I added the description of Yandex.Uchebnik mission in ‘Share content’ section:</p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-2_img5@2x.png" alt="Yandex Uchebnik hypothesis 2 image 5">
+
+        <div class="text-wrapper-700px">
+          <p>The last sections (‘Other courses’, ’Subscription’ and footer) remained unchanged, except for the “All courses” button in the “Other courses” section. Significantly reduced length of the page increased the probability that more users will view these sections. Those users who still have questions about the course will see the phone and email support in the footer section. All these changes will potentially lead to an increase in conversions.</p>
+        </div>
+
+      </section>
+
+      <!-- Hypothesis 3-->
+      <section class="content-wrapper" id="opaque-background-2">
+        <div class="text-wrapper-700px">
+          <h2 id="h2-hypothesis-3">Hypothesis 3</h2>
+          <p><em>Refresher courses always consume a lot of time, which means a complete schedule overhaul.</em></p>
+          <p>Since the time factor is very important in deciding whether to take a course or not, instead of the "Useful checklists and materials" icon, I added the "Course duration" icon on the first screen. Cost and duration (1) are first on the list. In the mobile version, I changed the layout, which made the data presented on screen visually more attractive:</p>
+        </div>
+
+        <img src="images/yandex_Hypothesis-3_img1@2x.png" alt="Yandex Uchebnik hypothesis 3 image 1">
+
+        <div class="text-wrapper-700px">
+          <p>The information about a flexible course schedule and access to records at any time is also mentioned in a video course introduction and user reviews.</p>
+        </div>
+
+      </section>
+
+      <!-- Prototype -->
+      <section class="content-wrapper">
+        <div class="text-wrapper-700px">
+          <h2 id="h2-landing-page-prototype">Landing Page Prototype</h2>
+        </div>
+
+        <img src="images/yandex_prototype-p1@2x.png" alt="Yandex.Uchebnik Landing Page Prototype image">
+        <img class="no-paddings" src="images/yandex_prototype-p2@2x.png" alt="Yandex.Uchebnik Landing Page Prototype image">
+        <img class="no-paddings" src="images/yandex_prototype-p3@2x.png" alt="Yandex.Uchebnik Landing Page Prototype image">
+
+      </section>
+      <!-- Other Projects -->
+      <section class="bottom-navigation">
+        <div class="flex-wrapper-700px">
+          <a class="other-projects" href="#top">
+          <p>Back to&nbsp;top</p>
+          </a>
+
+          <a class="other-projects" href="index.html">
+            <p id="p-other-projects">Other projects</p>
+          </a>
+        </div>
+      </section>
+  </article>
+
+  <!-- Footer -->
+  <footer class="case_studies">
+    <div class="flex-wrapper-footer">
+      <span class="copyright">Designed &amp;&nbsp;Developed
+                              by Ekaterina Vernigorova
+                              &copy;&nbsp;2022</span>
+      <ul class="contact">
+        <!-- <li><a href="http://www.behance.net/katyavernigorova" class="fa fa-behance"></a></li> -->
+        <li><a href="https://www.instagram.com/blukipp/" class="fa fa-instagram" target="_blank"></a></li>
+        <li><a href="http://linkedin.com/in/ekaterina-vernigorova-09b708210" class="fa fa-linkedin" target="_blank"></a></li>
+        <li><a href="mailto:katya_vernigorova@fastmail.com" class="fa fa-envelope-o" target="_blank"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
