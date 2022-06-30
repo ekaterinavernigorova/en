@@ -15,7 +15,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="build.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -74,7 +73,11 @@
             </div>
           </div>
 
-          <img src="images/yandex_cover.png" alt="" class="card_img">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/index/yandex_cover-desktop.png 1x, images/index/yandex_cover-desktop@2x.png 2x, images/index/yandex_cover-desktop@3x.png 3x">
+            <source media="(max-width: 767px)" srcset="images/index/yandex_cover-mobile.png 1x, images/index/yandex_cover-mobile@2x.png 2x, images/index/yandex_cover-mobile@3x.png 3x">
+            <img src="images/index/yandex_cover-desktop.png" alt="Yandex.Uchebnik case study cover image" class="card_img">
+          </picture>
 
         </a>
         <!-- linking the card below to book nook case study -->
@@ -89,7 +92,11 @@
             </div>
           </div>
 
-          <img src="images/book_nook_cover.png" alt="" class="card_img">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/index/book_nook_cover-desktop.png 1x, images/index/book_nook_cover-desktop@2x.png 2x, images/index/book_nook_cover-desktop@3x.png 3x">
+            <source media="(max-width: 767px)" srcset="images/index/book_nook_cover-mobile.png 1x, images/index/book_nook_cover-mobile@2x.png 2x, images/index/book_nook_cover-mobile@3x.png 3x">
+            <img src="images/index/book_nook_cover-desktop.png" alt="Book Nook case study cover image" class="card_img">
+          </picture>
 
         </a>
         <a href="kind.html" class="project_card">
@@ -103,7 +110,11 @@
             </div>
           </div>
 
-          <img src="images/kind_cover.png" alt="" class="card_img">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/index/kind_cover-desktop.png 1x, images/index/kind_cover-desktop@2x.png 2x, images/index/kind_cover-desktop@3x.png 3x">
+            <source media="(max-width: 767px)" srcset="images/index/kind_cover-mobile.png 1x, images/index/kind_cover-mobile@2x.png 2x, images/index/kind_cover-mobile@3x.png 3x">
+            <img src="images/index/kind_cover-desktop.png" alt="k.i.n.d. case study cover image" class="card_img">
+          </picture>
 
         </a>
         <a href="sylvan.html" class="project_card">
@@ -117,14 +128,18 @@
             </div>
           </div>
 
-          <img src="images/sylvan_cover.png" alt="" class="card_img">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/index/sylvan_cover-desktop.png 1x, images/index/sylvan_cover-desktop@2x.png 2x, images/index/sylvan_cover-desktop@3x.png 3x">
+            <source media="(max-width: 767px)" srcset="images/index/sylvan_cover-mobile.png 1x, images/index/sylvan_cover-mobile@2x.png 2x, images/index/sylvan_cover-mobile@3x.png 3x">
+            <img src="images/index/sylvan_cover-desktop.png" alt="Sylvan case study cover image" class="card_img">
+          </picture>
 
         </a>
 
       </div>
 
       <div class="home-text-wrapper">
-        <h1>I post my latest ui/ux, illustration, and motion design projects on <a href="">Instagram</a>. Have a project in mind? Send me an <a href="">email</a>.</h1>
+        <h1>I post my latest ui/ux, illustration, and motion design projects on <a href="https://www.instagram.com/blukipp/">Instagram</a>. Have a project in mind? Send me an <a href="mailto:katya_vernigorova@fastmail.com">email</a>.</h1>
       </div>
 
       <div class="spacer-75px" style="height: 75px;"></div>
@@ -135,13 +150,12 @@
   <footer class="home_page">
     <div class="flex-wrapper-footer">
       <span class="copyright">Designed &amp;&nbsp;Developed
-                              by Ekaterina Vernigorova
+                              by Ekaterina&nbsp;Vernigorova
                               &copy;&nbsp;2022</span>
       <ul class="contact">
-        <!-- <li><a href="http://www.behance.net/katyavernigorova" class="fa fa-behance"></a></li> -->
-        <li><a href="https://www.instagram.com/blukipp/" class="fa fa-instagram" target="_blank"></a></li>
-        <li><a href="http://linkedin.com/in/ekaterina-vernigorova-09b708210" class="fa fa-linkedin" target="_blank"></a></li>
-        <li><a href="mailto:katya_vernigorova@fastmail.com" class="fa fa-envelope-o" target="_blank"></a></li>
+        <li><a href="https://www.instagram.com/blukipp/" target="_blank"><img src="images/instagram.svg"></a></li>
+        <li><a href="http://linkedin.com/in/ekaterina-vernigorova-09b708210" target="_blank"><img src="images/linkedin-in.svg"></a></li>
+        <li><a href="mailto:katya_vernigorova@fastmail.com" target="_blank"><img src="images/envelope.svg"></a></li>
       </ul>
     </div>
   </footer>
