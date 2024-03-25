@@ -4852,6 +4852,11 @@ bottom: 0;
 overflow: hidden;
 }
 
+#about {
+  position: sticky;
+  bottom: 0;
+}
+
 .footer_link-block {
 color: #fff;
 }
